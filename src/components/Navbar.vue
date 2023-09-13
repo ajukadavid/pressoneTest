@@ -40,6 +40,7 @@
   border: 1px solid #0E99D2;
   background-color: white;
   color: #0E99D2;
+  cursor: pointer;
   padding-inline: 20.5px;
   padding-block: 14px !important;
   border-radius: 4px;
