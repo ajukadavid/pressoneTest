@@ -62,11 +62,12 @@ const cards = ref(
 .summary-wrapper {
     background: #0E99D2;
     border: 1px solid #0E99D2;
-    border-radius: 40px;
-    margin-top: 40px;
+    margin-top: 90px;
     display: flex;
-    padding-block: 20px;
+    width: 100vw;
+    padding-left: 20px;
     align-items: center;
+    padding-bottom: 10px;
     justify-items: center;
 }
 
@@ -74,7 +75,11 @@ const cards = ref(
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 200px;
+    margin-right: 50px;
 }
+
+
 
 .card-circle {
     width: 100px;
@@ -87,7 +92,7 @@ const cards = ref(
 }
 
 .card-square {
-    width: 294px;
+
     height: 200px;
     background-color: white;
     border-radius: 12px;
@@ -100,7 +105,7 @@ const cards = ref(
     background: #F3F8FE;
     border-radius: 12px;
     display: flex;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 22.4px;
     font-family: 'Urbanist', sans-serif;
     justify-items: center;
@@ -121,6 +126,16 @@ const cards = ref(
 @media (max-width: 768px) {
     .summary-wrapper {
         display: grid;
+    }
+
+    .card-circle {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        top: 50px;
     }
 }
 </style>

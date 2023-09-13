@@ -16,9 +16,4 @@ import Footer from './components/Footer.vue';
   <Footer />
 </template>
 
-<style scoped>
-.main {
-  background: red;
-  width: 100vw;
-}
-</style>
+<style scoped></style>

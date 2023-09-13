@@ -24,15 +24,16 @@
 
 <style scoped>
 .hero-wrapper {
-    padding-inline: 50px;
+    padding-inline: 20px;
     margin-top: 74px;
 }
 
 .hero-title {
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Recoleta', sans-serif;
     color: #212121;
     font-weight: 600;
+    margin-right: 40px;
     line-height: 62.4px;
 }
 
@@ -43,14 +44,20 @@
     background-size: cover;
 }
 
-.hero {
-    display: flex;
-    align-items: center;
+.hero-img>img {
+    max-height: 400px;
+    max-width: 400px;
 
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .hero-subText {
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 32px;
     font-weight: 700;
     font-family: 'Recoleta', sans-serif;
@@ -73,11 +80,14 @@
 .hero-text {
     display: flex;
     margin-top: 30px;
+    max-height: 400px;
+    max-width: 500px;
     background-image: url('hero-text-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     flex-direction: column;
+
 }
 
 .button {
