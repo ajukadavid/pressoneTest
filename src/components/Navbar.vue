@@ -184,6 +184,7 @@ ul {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    background-color: white;
     left: 0;
     top: 0;
     width: 100%;

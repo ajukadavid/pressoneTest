@@ -101,8 +101,9 @@
                         </table>
                     </div>
                 </div>
-
             </marquee>
+
+
             <div class="banner">
                 <span class="banner-title">
                     Join thousands of entrepreneurs using PressOne to improve their business communications.
@@ -258,6 +259,10 @@ onMounted(() => {
 
 tr:nth-child(odd) {
     background-color: #EAF1F6;
+}
+
+marquee {
+    margin-top: 50px;
 }
 
 .banner-title {

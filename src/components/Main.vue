@@ -137,5 +137,13 @@ const cards = ref(
         position: relative;
         top: 50px;
     }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        margin-right: 50px;
+    }
 }
 </style>

@@ -234,10 +234,11 @@ ul {
         display: flex;
         flex-direction: column;
         font-family: 'Urbanist', sans-serif;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 500;
         line-height: 22px;
         letter-spacing: 0px;
+        margin-bottom: 20px;
         justify-items: center;
         align-items: center;
     }
@@ -259,6 +260,16 @@ ul {
         gap: 20px;
         margin-right: 30px;
         align-items: center;
+    }
+
+    .company>.title {
+        text-align: center;
+        width: 100%;
+    }
+
+    .address>.title {
+        text-align: center;
+        width: 100%;
     }
 }
 </style>
