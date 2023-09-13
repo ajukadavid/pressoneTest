@@ -23,9 +23,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.cdnfonts.com/css/recoleta');
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
-
 .hero-wrapper {
     padding-inline: 50px;
     margin-top: 74px;

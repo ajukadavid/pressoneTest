@@ -100,6 +100,9 @@ const cards = ref(
     background: #F3F8FE;
     border-radius: 12px;
     display: flex;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-family: 'Urbanist', sans-serif;
     justify-items: center;
     align-items: center;
     text-align: center;
