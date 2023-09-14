@@ -68,7 +68,7 @@ const cards = ref(
     padding-left: 20px;
     align-items: center;
     padding-bottom: 10px;
-    justify-items: center;
+    justify-items: space-between;
 }
 
 .card-wrapper {
