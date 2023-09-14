@@ -4,7 +4,7 @@
         <div class="wrapper">
             <div class="card-wrapper">
                 <div class="card-top">
-                    <img src="card-1-bg.png" />
+                    <img src="/card-1-bg.png" />
                 </div>
                 <div class="card-circle">
                     <div class="inner">
@@ -81,7 +81,7 @@
             </div>
             <div class="card-wrapper">
                 <div class="card-top">
-                    <img src="card-2-bg.png" />
+                    <img src="/card-2-bg.png" />
                 </div>
                 <div class="card-circle">
                     <div class="inner-2">

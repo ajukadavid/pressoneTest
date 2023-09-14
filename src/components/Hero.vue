@@ -38,7 +38,7 @@
 }
 
 .hero-img {
-    background-image: url('hero-img-bg.png');
+    background-image: url('/hero-img-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -82,7 +82,7 @@
     margin-top: 30px;
     max-height: 400px;
     max-width: 500px;
-    background-image: url('hero-text-bg.png');
+    background-image: url('/hero-text-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
