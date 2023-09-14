@@ -2,7 +2,7 @@
     <div class="main-wrapper">
         <div class="footer-wrapper">
             <div class="info">
-                <img class="logo" src="logo.png" />
+                <img class="logo" src="/logo.png" />
                 <span>hello@pressone.africa</span>
                 <span>+234 1 343 8962</span>
                 <div>
