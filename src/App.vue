@@ -1,4 +1,15 @@
 <script setup lang="ts">
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  if (localStorage.getItem('reloaded')) {
+
+    localStorage.removeItem('reloaded');
+  } else {
+    localStorage.setItem('reloaded', '1');
+    location.reload();
+  }
+})
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue';
 import Main from './components/Main.vue';
@@ -9,6 +20,8 @@ import Footer from './components/Footer.vue';
 
 <template >
   <Navbar />
+
+
   <Hero />
   <Main />
   <Services />

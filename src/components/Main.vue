@@ -66,7 +66,7 @@ const cards = ref(
     display: flex;
     width: 100%;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     justify-items: space-evenly;
 }
 
