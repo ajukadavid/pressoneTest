@@ -60,15 +60,15 @@ const cards = ref(
 
 <style scoped>
 .summary-wrapper {
-    background: #0E99D2;
+    background: blue;
     border: 1px solid #0E99D2;
     margin-top: 90px;
     display: flex;
-    width: 100vw;
+    width: 100%;
     padding-left: 20px;
     align-items: center;
     padding-bottom: 10px;
-    justify-items: space-between;
+    justify-items: space-evenly;
 }
 
 .card-wrapper {
