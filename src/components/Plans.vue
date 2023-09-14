@@ -6,7 +6,7 @@
             <marquee>
                 <div class="wrapper">
                     <div class="plans">
-                        <div>
+                        <div class="logo-wrapper">
                             <svg width="257" height="235" viewBox="0 0 257 235" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -289,6 +289,8 @@ marquee {
 
 .plans {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .banner-sub {
