@@ -75,7 +75,7 @@ const cards = ref(
     flex-direction: column;
     align-items: center;
     max-width: 200px;
-    margin-right: 50px;
+    margin-inline: 57px;
 }
 
 
